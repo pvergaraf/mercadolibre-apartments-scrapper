@@ -16,7 +16,7 @@ class TwilioWhatsappNotifier:
       self.__send_whatsapp_message(client, body)
 
   def __filter_apartments_by_location(self, apartments):
-    unwanted_locations = ["atenas", "elcano", "vaticano", "colón", "colon", "hurtado", "zamora", "mall sport"]
+    unwanted_locations = ["atenas"]
     apartments_with_wanted_locations = []
 
     for apartment in apartments:
